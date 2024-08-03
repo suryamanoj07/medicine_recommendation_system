@@ -86,6 +86,8 @@ if st.button("Predict your Disease"):
 if 'outputs' not in st.session_state:
     st.session_state.outputs = []
 
+st.write("Please click the buttons to see following details")
+
 col1, col2, col3, col4, col5 = st.columns(5)
 # Show information based on predicted disease
 with col1:
